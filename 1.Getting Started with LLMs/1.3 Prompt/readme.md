@@ -87,12 +87,6 @@ response = llm.invoke(ready_prompt).content
 
 **Example:** topic = `"Microsoft"`, tone = `"funny"` → generates a fun fact about Microsoft written in a humorous tone.
 
-## Key Takeaways
-
-| Class | Use Case | Tone/System Message Support |
-|---|---|---|
-| `PromptTemplate` | Simple dynamic prompt (f-string-like) | ❌ No |
-| `ChatPromptTemplate` | Dynamic prompt + persona/tone control | ✅ Yes |
 
 - Both classes support injecting **any number of variables** into the template using `{variable_name}` placeholders and a matching dictionary passed to `.invoke()`.
 - `ChatPromptTemplate.from_messages()` uses simple `("role", "text")` tuples instead of manually instantiating `SystemMessage`/`HumanMessage`/`AIMessage` objects — cleaner and less boilerplate.
