@@ -91,3 +91,5 @@ response = llm.invoke(ready_prompt).content
 - Both classes support injecting **any number of variables** into the template using `{variable_name}` placeholders and a matching dictionary passed to `.invoke()`.
 - `ChatPromptTemplate.from_messages()` uses simple `("role", "text")` tuples instead of manually instantiating `SystemMessage`/`HumanMessage`/`AIMessage` objects — cleaner and less boilerplate.
 - The final `ready_prompt` (from either class) can be passed directly into `llm.invoke()`.
+
+
