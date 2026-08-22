@@ -11,6 +11,60 @@ LangChain is a software toolkit that connects powerful artificial intelligence m
 | Autonomy | Task-level | System-level (planning + orchestration) |
 | Example | Chatbot answering FAQs | Multi-agent pipeline managing a full project |
 
+# Installation
+
+1. **Clone the repository:**
+```bash
+git clone https://github.com/tapan-chauhan/langchain-agentic-ai.git
+cd langchain-agentic-ai
+```
+
+2. **Create a virtual environment (recommended):**
+```bash
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```
+
+3. **Install dependencies:**
+```bash
+pip install -r requirements.txt
+# Or use poetry/pip with pyproject.toml
+```
+
+# Usage
+
+- **Run the main script:**
+```bash
+python main.py
+```
+
+- **Explore the Jupyter notebooks:** Open any notebook in the folders to follow the project interactively.
+
+# Database Example
+
+```sql
+CREATE TABLE IF NOT EXISTS orders (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    customer_name TEXT NOT NULL,
+    product_name TEXT NOT NULL,
+    quantity INTEGER NOT NULL,
+    price REAL NOT NULL,
+    total REAL NOT NULL
+)
+```
+
+# Dependencies
+
+Key dependencies (see `pyproject.toml`):
+
+- `langchain`
+- `langchain-community`
+- `langchain-core`
+- `langchain-openai`
+- `load-dotenv`
+- `openai`
+- `wikipedia`
+
 <img width="1623" height="815" alt="image" src="https://github.com/user-attachments/assets/ec7e468a-c977-4219-9e75-d8dd3a83725b" />
 <img width="1792" height="966" alt="image" src="https://github.com/user-attachments/assets/efd9dcc1-51d2-4484-95ce-405ed23a3ce0" />
 <img width="1653" height="921" alt="image" src="https://github.com/user-attachments/assets/8baf58e3-ab07-4045-801a-55e8eaa3c96f" />
