@@ -92,6 +92,7 @@ response = llm.invoke(ready_prompt).content
 - `ChatPromptTemplate.from_messages()` uses simple `("role", "text")` tuples instead of manually instantiating `SystemMessage`/`HumanMessage`/`AIMessage` objects — cleaner and less boilerplate.
 - The final `ready_prompt` (from either class) can be passed directly into `llm.invoke()`.
 
+<img width="957" height="689" alt="image" src="https://github.com/user-attachments/assets/cbdef865-94ca-46c9-9c9f-f88db9e15861" />
 
 
 
