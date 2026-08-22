@@ -1,4 +1,5 @@
 # Langchain-Agentic-AI
+LangChain is a software toolkit that connects powerful artificial intelligence models to a company's internal data, databases, and business tools. It turns a smart text model into a practical worker that can remember past tasks, search company files, and execute multi-step workflows instead of just answering basic prompts.
 
 # AI Agent vs Agentic AI
 
