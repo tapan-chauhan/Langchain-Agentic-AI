@@ -1,6 +1,37 @@
 # Langchain-Agentic-AI
 LangChain is a software toolkit that connects powerful artificial intelligence models to a company's internal data, databases, and business tools. It turns a smart text model into a practical worker that can remember past tasks, search company files, and execute multi-step workflows instead of just answering basic prompts.
 
+# Table of Contents
+Project Structure
+Installation
+Usage
+Chapter Overview
+Database Example
+Dependencies
+Contributing
+License
+
+# Project Structure
+Langchain-Agentic-AI/
+│   main.py
+│   pyproject.toml
+│   README.md
+├── 1. Getting Started with LLMs
+│   ├── 1_LLM_Call.ipynb
+│   ├── 2_Messages.ipynb
+│   └── 3_Structured_Outputs.ipynb
+├── Building Chains
+│   ├── 1_first_chain.ipynb
+│   ├── 2_chain_with_customRunnable.ipynb
+│   ├── 3_parallel_chains.ipynb
+│   └── 4_conditional_chains.ipynb
+├── Agents & Database Integration
+│   ├── 1_ReAct_Agent_Intro.ipynb
+│   ├── 2_React_DB_Agent.ipynb
+│   ├── init_db.py
+│   └── SalesDB/
+
+
 # AI Agent vs Agentic AI
 
 | Aspect | AI Agent | Agentic AI |
