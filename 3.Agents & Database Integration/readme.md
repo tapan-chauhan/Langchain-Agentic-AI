@@ -39,7 +39,8 @@ result = sql_agent.invoke({"messages": [{"role": "user", "content": "total sales
 
 <img width="986" height="473" alt="image" src="https://github.com/user-attachments/assets/d154c75f-3da1-4c08-8690-85f48d4ddbdf" />
 
-<img width="1561" height="905" alt="image" src="https://github.com/user-attachments/assets/9e54768d-8b98-4414-9ddd-20f922dc0c0c" />
+<img width="1101" height="631" alt="image" src="https://github.com/user-attachments/assets/4e4cf6b1-b05b-4c57-b1d2-e35d50926e99" />
+
 
 
 
