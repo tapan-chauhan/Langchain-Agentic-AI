@@ -25,13 +25,13 @@ Langchain-Agentic-AI/
 │   ├── 2_Messages.ipynb
 │   └── 3_Structured_Outputs.ipynb
 │
-├── Building Chains
+├── 2.Building Chains
 │   ├── 1_first_chain.ipynb
 │   ├── 2_chain_with_customRunnable.ipynb
 │   ├── 3_parallel_chains.ipynb
 │   └── 4_conditional_chains.ipynb
 │
-└── Agents & Database Integration
+└── 3.Agents & Database Integration
     ├── 1_ReAct_Agent_Intro.ipynb
     ├── 2_React_DB_Agent.ipynb
     ├── init_db.py
